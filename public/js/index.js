@@ -35,7 +35,6 @@ document.getElementById("login-form").addEventListener("submit",function(e){
     
 })
 
- 
 //criar conta
 document.getElementById("create-form").addEventListener("submit", function(e) {
     e.preventDefault();

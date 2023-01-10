@@ -16,14 +16,14 @@ document.getElementById("login-form").addEventListener("submit",function(e){
     const account = getAccount(email)
     
     if (!account){
-        alert("ops verifiquei o usuario ou a senha !!!!!");
+        alert("Ops verifique o seu usuario ou a sua senha !!!!!");
         return;
     }
   
     if(account){
         if(account.password !== password){
 
-            alert("ops verifiquei o usuario ou a senha !!!!!");
+            alert("Ops verifique o seu usuario ou a sua senha !!!!!");
             return;
         }
 

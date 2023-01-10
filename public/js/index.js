@@ -73,7 +73,6 @@ function checkedLogged(){
         logged = session;
 
     };
-
     if(logged){
         saveSession(logged, session);
 
